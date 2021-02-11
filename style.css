@@ -67,8 +67,21 @@ padding-bottom: 2vh;
 }
 
 .landing--tider{
-
+    background-image: linear-gradient(to bottom right,  #5f4433,#302a2a);
+    padding: 1rem;
+    word-spacing: 2px;
+    border: 5px solid #d4b890;
+    margin: auto;
+    width: 60%;
 }
+
+.landing--tider p{
+    color: #EDE7E7;
+    margin: 1rem;
+    font-size: larger;
+    line-height: 0.9rem;
+}
+
 
 
 /*FOOTER SECTION*/
