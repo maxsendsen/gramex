@@ -3,6 +3,24 @@
     margin: 0;
   
 }
+@font-face {
+    font-family: the skinny;
+    src: url(./assets/TheSkinny.otf);
+}
+
+@font-face {
+    font-family: the skinny-bold;
+    src: url(./assets/TheSkinny-bold.otf);
+}
+@font-face {
+    font-family: leelawadee UI;
+    src: url(./assets/LEELAWUI.TTF);
+}
+
+@font-face {
+    font-family: leelawadee-bold;
+    src: url(./assets/LEELAUIB.TTF);
+}
 body{
     background-color: #EDE7E7;
 }
@@ -24,6 +42,12 @@ padding-bottom: 2vh;
 
 }
 
+.top--nav--link{
+    text-decoration: none;
+    color: #EDE7E7;
+    font-family: the skinny;
+
+}
 /* Style navigation menu links */
 .top--nav a {
     color: white;
