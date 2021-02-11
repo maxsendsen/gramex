@@ -7,10 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <title>The Trio</title>
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
+   
+
     <nav class="top--nav">
-        <h1 class="top--nav--tekst"><a href="" class="top--nav--link">the trio</a></h1>
+        <h1 class="top--nav--tekst"><a href="home" class="top--nav--title active">the trio</a></h1>
+        <!-- links -->
+        <div id="myLinks">
+            <a href="#shop" class="top--nav--links">Shop</a>
+            <a href="#arrangement" class="top--nav--links">Arrangement</a>
+            <a href="#album" class="top--nav--links">Album</a>
+            <a href="om" class="top--nav--links">Om</a>
+
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </nav>
 
 
@@ -52,6 +67,7 @@
         </ul>
         <p class="footer--paragraf">2021 copyright</p>
     </footer>
+    <script src="./javascript.js"></script>
 </body>
 
 </html>
