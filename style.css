@@ -55,5 +55,10 @@ body{
     height: 40px;
     align-items: left;
 }
+.footer--p{
+    text-align: right;
+    color: #EDE7E7;
+    padding-right: 10px;
+}
 
 
