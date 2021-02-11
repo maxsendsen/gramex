@@ -30,5 +30,11 @@
 }
 
 .footer{
+<<<<<<< Updated upstream
 
+=======
+    height: 20rem;
+    background: linear-gradient(rgb(24, 2, 2),black);
+    
+>>>>>>> Stashed changes
 }
