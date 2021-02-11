@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top--billede{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/Group\ 10.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 8vh;
+    background-position-x: center;
+}
+
+.landing--video{
+    
+}
