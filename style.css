@@ -3,19 +3,6 @@
     margin: 0;
   
 }
-
-
-@font-face {
-    font-family: the skinny;
-    src: url(./assets/TheSkinny.otf);
-}
-
-@font-face {
-    font-family: the skinny-bold;
-    src: url(./assets/TheSkinny-bold.otf);
-}
-
-
 body{
     background-color: #EDE7E7;
 }
@@ -83,8 +70,27 @@ padding-bottom: 2vh;
 
 }
 
-.footer{
 
-    background: linear-gradient(rgb(24, 2, 2),black);
-    
+/*FOOTER SECTION*/
+
+.footer{
+    background: linear-gradient(#180202,#000000);
 }
+
+.footer--nav{
+    display: inline;
+    list-style-type: none;
+}
+
+.footer--nav li{
+    display: inline-block;
+    padding: 3px;
+}
+.footer--nav img{
+    padding-top:12px;
+    width: 40px;
+    height: 40px;
+    align-items: left;
+}
+
+
