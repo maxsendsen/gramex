@@ -3,13 +3,37 @@
     margin: 0;
   
 }
+
+
+@font-face {
+    font-family: the skinny;
+    src: url(./assets/TheSkinny.otf);
+}
+
+@font-face {
+    font-family: the skinny-bold;
+    src: url(./assets/TheSkinny-bold.otf);
+}
+
+
 body{
     background-color: #EDE7E7;
 }
 .top--nav{
-    background-image: linear-gradient(red, yellow);
+    height: 8vh;
+    background-image: linear-gradient(#302A2A, #5F4433);
+}
+.top--nav--tekst{
+text-align: center;
+
 }
 
+.top--nav--link{
+    text-decoration: none;
+    color: #EDE7E7;
+    font-family: the skinny;
+
+}
 
 .top--billede{
     width: 100vw;
