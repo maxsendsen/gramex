@@ -25,7 +25,8 @@ body{
 }
 .top--nav--tekst{
 text-align: center;
-
+padding-top:2vh;
+padding-bottom: 2vh;
 }
 
 .top--nav--link{
