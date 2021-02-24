@@ -165,13 +165,24 @@ body{
     padding-top:12px;
     width: 40px;
     height: 40px;
-    align-items: left;
 }
 .footer--p{
     text-align: right;
     color: #EDE7E7;
     padding-right: 10px;
     font-family: leelawadee UI; 
+    align-items: right;
 }
 
 
+.footer--nav2{
+    display: inline;
+    list-style-type: none;
+    float:right;
+}
+
+.footer--nav2 li{
+    display: inline-block;
+    padding: 3px;
+
+}
