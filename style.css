@@ -85,14 +85,16 @@ body{
     text-align: center;
   }
 
-
+.logo{
+    width: 20%;
+}
 .top--billede{
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
     background-image: url(./assets/Group\ 10.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: 8vh;
+   
     background-position-x: center;
 }
 
@@ -101,6 +103,8 @@ body{
     margin: 0 auto;
     margin-bottom: 8rem;
     text-align: center;
+    width: 100%;
+ 
 }
 
 .landing--beskrivelse{
