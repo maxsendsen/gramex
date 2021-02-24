@@ -99,10 +99,10 @@ body{
 .landing--video{
     display: block;
     margin: 0 auto;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     text-align: center;
     width: 100%;
- 
+    
 }
 
 .landing--beskrivelse{
@@ -112,6 +112,7 @@ body{
     margin: auto;
     width: 60%;
     margin-bottom: 25px;
+    box-shadow: 1px 1px 5px #d4b890;
 }
 
 .landing--beskrivelse--text{
@@ -128,10 +129,11 @@ body{
     background-image: linear-gradient(to bottom right,  #5f4433,#302a2a);
     padding: 1rem;
     word-spacing: 2px;
-    border: 5px solid #d4b890;
     margin: auto;
     width: 60%;
     margin-bottom: 25px;
+    box-shadow: 1px 1px 5px #d4b890;
+
 }
 
 .landing--tider p{
