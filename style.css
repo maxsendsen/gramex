@@ -94,9 +94,7 @@ body{
     background-image: url(./assets/Group\ 10.png);
     background-size: 100%;
     background-repeat: no-repeat;
-   
-    background-position-x: center;
-}
+   }
 
 .landing--video{
     display: block;
