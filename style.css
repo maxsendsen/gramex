@@ -25,7 +25,7 @@
 body{
     background-color: #EDE7E7;
 }
-
+/* elementer fra .topnav til og med .active er kopiret fra w3schools https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
   /* Style the navigation menu */
 .topnav {
     overflow: hidden;
