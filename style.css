@@ -50,6 +50,36 @@ body{
 }
 /* book */
 
+.section--book{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.section--book--button{
+    border: 7px solid #AA8044;
+    color: #D4B890;
+    background: none;
+    font-size: 4rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-decoration: none;
+}
+
+
+.section--book--button:hover {
+    background-color: #AA8044;
+    color: #302A2A;
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  /* box-shadow er taget fra w3 school*/
+
+
 /* footer */ 
 
 .footer--nav{
