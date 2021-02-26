@@ -25,4 +25,19 @@ body{
 
 /* book */
 
-/* footer */
+/* footer */ 
+
+.footer--nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+} 
+.footer--nav li{
+    display: inline-block;
+    padding: 8px;
+} 
+.footer--nav img{
+    padding-top:12px;
+    width: 58px;
+    height: 58px;
+}
