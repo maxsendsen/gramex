@@ -26,8 +26,8 @@ body{
     margin-right: auto;
     padding: 2%;
 }
-/* video */
 
+/* video */
 .section--video{
 background-image: url(./assets/baggrundsrektangel.svg);
 background-repeat: no-repeat;
@@ -111,3 +111,35 @@ height: 58px;
 }
 
 
+@media only screen and (min-width: 1440px) {
+
+/* logo */
+.section--top--logo{
+    width: 10%;
+}
+
+
+/* video */
+.section--video{
+    background-image: url(./assets/baggrunsrektangel2.svg);
+    background-repeat: no-repeat;
+    padding-top: 7.6rem;
+    padding-bottom: 8rem;
+    }
+
+    .section--video--wrapper{
+        position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    }
+    
+    
+    .section--video iframe{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    /* padding-top: 8rem; */
+    padding-left:3rem;
+        
+    }
+}
