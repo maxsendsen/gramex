@@ -14,15 +14,13 @@
 }
 
 body{
-    background-color: #F9F8F2;
-    background-image: url(./assets/baggrundsrektangel.svg);
-    background-repeat: no-repeat;
-   
+    background-color: #F9F8F2;   
 }
 
 /* logo */
 .section--top--logo{
     width: 25%;
+    margin-top: 1rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -31,30 +29,40 @@ body{
 /* video */
 
 .section--video{
+background-image: url(./assets/baggrundsrektangel.svg);
+background-repeat: no-repeat;
+padding-top: 7.6rem;
+padding-bottom: 8rem;
+}
+.section--video--wrapper{
     position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+padding-bottom: 56.25%; /* 16:9 */
+height: 0;
 }
 
+
 .section--video iframe{
-    position: absolute;
-    width: 73%;
-    height: 73%;
-    padding-top: 6.6rem;
-    padding-left:3rem;
+position: absolute;
+width: 70%;
+height: 70%;
+/* padding-top: 8rem; */
+padding-left:3rem;
     
 }
 /* beskrivelse */
 .section--beskrivelse{
-    padding-top: 50%;
-    font-family: leelawadee ui;
-    margin-left: 10%;
-    margin-right: 10%;
+padding-bottom: 2rem;
+font-family: leelawadee ui;
+margin-left: 10%;
+margin-right: 10%;
 }
 /* book */
 
 .section--book{
-    padding-top: 40%;
+background-image: url(./assets/baggrundsrektangel.svg);
+background-repeat: no-repeat;
+padding-top: 10rem;
+padding-bottom: 10rem;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -62,23 +70,23 @@ align-items: center;
 
 
 .section--book--button{
-    border: 7px solid #AA8044;
-    color: #D4B890;
-    background: none;
-    font-size: 2.5rem;
-    padding: 1rem;
-    cursor: pointer;
-    padding-left: 2.7rem;
-    padding-right: 2.7rem;
-    text-decoration: none;
+border: 5px solid #AA8044;
+color: #D4B890;
+background: none;
+font-size: 2.2rem;
+padding: 1rem;
+cursor: pointer;
+padding-left: 2.7rem;
+padding-right: 2.7rem;
+text-decoration: none;
 }
 
 
 .section--book--button:hover {
-    background-color: #AA8044;
-    color: #302A2A;
-    transition-duration: 0.4s;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: #AA8044;
+color: #302A2A;
+transition-duration: 0.4s;
+box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
   /* box-shadow er taget fra w3 school*/
 
@@ -86,17 +94,20 @@ align-items: center;
 /* footer */ 
 
 .footer--nav{
-    padding-top: 40%;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+padding-top: 3rem;
+padding-bottom: 4rem;
+display: flex;
+justify-content: center;
+list-style-type: none;
 } 
 .footer--nav li{
-    display: inline-block;
-    padding: 8px;
+display: inline-block;
+padding: 8px;
 } 
 .footer--nav img{
-    padding-top:12px;
-    width: 58px;
-    height: 58px;
+padding-top:12px;
+width: 58px;
+height: 58px;
 }
+
+
