@@ -26,6 +26,28 @@ body{
     margin-right: auto;
     padding: 2%;
 }
+.section--top--logo:hover{
+    animation-name: logo;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+  @keyframes logo{
+
+    from{  
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(-45deg);
+    }
+    
+   
+    to{  
+        transform: rotate(360deg); 
+    }    
+
+}
 
 /* video */
 .section--video{
@@ -105,6 +127,10 @@ list-style-type: none;
 display: inline-block;
 padding: 8px;
 } 
+.footer--nav li:hover{
+    animation: bounce;
+    animation-duration: 1s;
+}
 .footer--nav img{
 padding-top:12px;
 width: 58px;
