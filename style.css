@@ -63,7 +63,7 @@ height: 0;
 }
 
 
-.section--video iframe{
+.section--video video{
 position: absolute;
 width: 70%;
 height: 70%;
@@ -156,7 +156,7 @@ padding-top: 7.6rem;
 padding-bottom: 22.5rem;
 }
     
-.section--video iframe{
+.section--video video{
 position: absolute;
 width: 80%;
 height: 80%;
